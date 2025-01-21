@@ -7,6 +7,13 @@ using System.Threading.Tasks;
 using AdoNetCore.Models;
 using Microsoft.Data.SqlClient;
 
+//CREATE PROCEDURE SP_GET_ALL_EMPLEADOS_HOSPITAL
+//(@HOSPITAL NVARCHAR(50))
+//AS
+//	DECLARE @COD INT
+//	SELECT @COD= HOSPITAL_COD FROM HOSPITAL WHERE NOMBRE = @HOSPITAL
+
+//GO
 namespace AdoNetCore.Repositories
 {
     public class RepositoryHospitales

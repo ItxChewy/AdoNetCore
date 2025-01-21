@@ -31,7 +31,10 @@ namespace AdoNetCorePractica
         }
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
+            if(this.comboBox1.SelectedIndex != -1)
+            {
 
+            }
         }
     }
 }
